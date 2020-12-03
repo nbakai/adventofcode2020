@@ -53,7 +53,7 @@ def read_file(filename)
                     if @contador_casi == 2 
                         
                         @contador_valido += 1
-                        puts "#{datos[x]} vali: #{@contador_valido} letra : #{@letra} #{@min} #{@max}"
+                        puts "#{datos[x]} vali: #{@contador_valido} letra : #{@letra} #{@min}-#{@max}"
                          @contador_casi = 0
                     end 
                 end 
