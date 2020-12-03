@@ -67,4 +67,4 @@ def read_file(filename)
     puts @contador_valido 
 end
 
-read_file("dosb.data")
+read_file("dos.data")
