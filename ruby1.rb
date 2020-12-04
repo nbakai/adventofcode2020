@@ -2,7 +2,7 @@ data = File.open("lista2dic.data").readlines
 data.map!{|linea| linea.split("\n")}
 
 
-def nota_mas_alta(arr)
+def encontrar2020(arr)
  
     arr.each do |x|
         a = 1
@@ -20,4 +20,4 @@ def nota_mas_alta(arr)
     end
 end
 
-nota_mas_alta(data)
+encontrar2020(data)
